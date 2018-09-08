@@ -16,6 +16,18 @@ class ProdutDBStore {
 		product.add(new Product(5,"cken",2,1));
 
 	}
+	public ProductDBStore  productDetails() {
+		for(ProductDBStore product: produt) {
+			System.out.println(product);
+			return product;
+
+
+		}
+		return null;
+	}
+	public List<ProductDB> getPd() {
+		return pd;
+	}
 
 	public List<Product> getProduct() {
 		return product;
