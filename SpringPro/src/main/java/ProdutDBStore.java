@@ -21,4 +21,3 @@ class ProdutDBStore {
 		return product;
 	}
 }
-
