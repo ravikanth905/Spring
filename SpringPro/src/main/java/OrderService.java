@@ -12,6 +12,7 @@ public class OrderService {
 	public String  processorder()
 	{
 		if(Order.id==ProductDBStore.getId() && Order.quantity<=ProductDBStore.getQuantity())
+		dbStore.productDetails().setQuantity(dbStore.getQuantity()-order.getQuantity());
 
 		{
 
