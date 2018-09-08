@@ -2,7 +2,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class OrderService {
 	
 	@Autowired
-	OrderService Order;
+	private DBstore dbStore;
 	
 	public static void main(String args[]) {
 	
